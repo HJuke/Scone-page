@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#index {
+    background: url('assets/img1.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Ranchers', cursive;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: .2rem;
+}
+
+.maintitle {
+    font-size: 2rem;
+    padding: 10% 0 10% 0;
+}
+
+.subtitle {
+    font-size: 1rem;
+}
