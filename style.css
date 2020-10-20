@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background: #c3b091;
+}
+
 .nav {
     display: flex;
     justify-content: center;
@@ -11,6 +15,14 @@
     top: 0;
     left: 0;
     width: 100%;
+    background: #c3b091;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'Oswald', sans-serif;
 }
 
 #index {
@@ -18,19 +30,31 @@
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     font-family: 'Ranchers', cursive;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     letter-spacing: .2rem;
 }
 
 .maintitle {
-    font-size: 2rem;
-    padding: 10% 0 10% 0;
+    font-size: 2.4rem;
 }
 
 .subtitle {
-    font-size: 1rem;
+    font-size: 1.2rem;
+}
+
+.menugrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.menu-1, .menu-2, .menu-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
 }
