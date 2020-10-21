@@ -21,7 +21,7 @@ body {
 .nav a {
     text-decoration: none;
     font-size: 1.2rem;
-    color: white;
+    color: #800000;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -48,13 +48,68 @@ body {
     font-size: 1.2rem;
 }
 
+.section-title {
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem; 
+    color: #800000;
+}
+
+.menu-title, .info-title {
+    font-family: 'Ranchers', cursive;
+    font-size: 1.8rem;
+    color: 	#800000;
+}
+
+
 .menugrid {
     display: grid;
     grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 5rem;
+    color: 	#800000;
 }
 
 .menu-1, .menu-2, .menu-3 {
     display: flex;
     flex-direction: row;
     gap: 5rem;
+    line-height: 2rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+}
+
+.infodiv {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.info-1, .info-2 {
+    color: #800000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+}
+.info-2 {
+    line-height: 2rem;
+}
+
+.info-2 a {
+    text-decoration: none;
+    color: #800000;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.info-title {
+    text-align: center;
 }
