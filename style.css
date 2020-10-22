@@ -112,4 +112,48 @@ ul {
 
 .info-title {
     text-align: center;
+    padding: 1.5rem;
+}
+
+/* MOBILE VIEW */
+
+@media (max-width: 500px) {
+    #index {
+        background-position: center;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .menugrid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 3;
+        gap: 2rem;
+    }
+
+    .infodiv {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .info-1, .info-2, .menu-1, .menu-2, .menu-3 {
+        font-size: 1rem;
+    }
+
+    .menu-title, .info-title {
+        font-size: 1.5rem;
+    }
+
+    .info-title {
+        padding: 0rem 0 0 1.5rem;
+    }
+
+    .section-title {
+        padding: 1rem 0 0 1rem;
+    }
 }
