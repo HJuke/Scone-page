@@ -156,4 +156,12 @@ ul {
     .section-title {
         padding: 1rem 0 0 1rem;
     }
+
+    .menu-1 {
+        gap: 50%
+    }
+
+    .menu-2 {
+        gap: 10%
+    }
 }
