@@ -161,7 +161,7 @@ ul {
     }
 
     .info-title {
-        padding: 0rem 0 0 1.5rem;
+        padding: 0 0 1rem 0;
     }
 
     .section-title {
@@ -174,5 +174,16 @@ ul {
 
     .menu-2 {
         gap: 10%
+    }
+
+    .info-1 {
+        gap: 10%;
+    }
+
+    .days, .hour {
+        width: 7rem;
+    }
+    .info-1 {
+        gap: 15%;
     }
 }
